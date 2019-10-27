@@ -1,0 +1,20 @@
+{
+	"name": "bug-tracker",
+	"version": "1.0.0",
+	"description": "Simple bug tracker with authentication.",
+	"main": "index.js",
+	"repository": "https://github.com/AkaiVAC/bug-tracker.git",
+	"author": "Arun <v.arunchithambaram@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"serve": "parcel ./src/index.html --out-dir ./build/output --cache-dir ./build/cache --open",
+		"build": "parcel ./src/index.html --experimental-scope-hoisting --out-dir ./build/output --cache-dir ./build/cache"
+	},
+	"dependencies": {
+		"react": "^16.11.0",
+		"react-dom": "^16.11.0"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4"
+	}
+}
