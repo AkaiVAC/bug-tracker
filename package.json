@@ -11,8 +11,8 @@
 		"build": "parcel ./src/index.html --experimental-scope-hoisting --out-dir ./build/output --cache-dir ./build/cache"
 	},
 	"dependencies": {
-		"react": "^16.11.0",
-		"react-dom": "^16.11.0"
+		"react": "^17.0.0",
+		"react-dom": "^17.0.0"
 	},
 	"devDependencies": {
 		"parcel-bundler": "1.12.4"
